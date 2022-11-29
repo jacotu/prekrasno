@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>emoji lols</title>
+    <style media="screen">
+      .wow {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        background: url('prekrasno3.png');
+        animation: wow 2s steps(1) infinite;
+      }
+      .boom {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        background: url('prekrasno4.png');
+        animation: boom 2s steps(1) infinite;
+      }
+      .yeah {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        display: block;
+        margin: 60px auto;
+        background: url('prekrasno5.png');
+        animation: yeah 2s steps(1) infinite;
+      }
+      .yuhu {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        display: block;
+        margin: 60px auto;
+        background: url('prekrasno6.png');
+        animation: yeah 2s steps(1) infinite;
+      }
+      .woo {
+        width: 160px;
+        height: 160px;
+        position: relative;
+        display: block;
+        margin: 60px auto;
+        background: url('prekrasno7.png');
+        animation: yeah 2s steps(1) infinite;
+      }
+      .rotate {
+        animation: rotate 3s ease infinite;
+      }
+      .skew {
+        animation: skew 3s ease infinite;
+      }
+      .scale {
+        animation: scale 3s ease infinite;
+      }
+      @keyframes rotate {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+      }
+      @keyframes skew {
+        0% {transform: skew(0deg);}
+        30% {transform: skew(30deg);}
+        50% {transform: skewY(-0.06turn);}
+        100% {transform: skew(0deg);}
+      }
+      @keyframes scale {
+        0% {transform: scaleY(0);}
+        30% {transform: scaleY(1.5);}
+        50% {transform: scaleY(-1.5);}
+        100% {transform: scaleY(0);}
+      }
+      @keyframes wow {
+        0% {background-position: 0 top}
+        50% {background-position: -160px}
+      }
+      @keyframes boom {
+        0% {background-position: 0 top}
+        50% {background-position: -160px top}
+      }
+      @keyframes yeah {
+        0% {background-position: 0 top}
+        50% {background-position: -160px top}
+      }
+      @keyframes yuhu {
+        0% {background-position: 0 top}
+        50% {background-position: -160px top}
+      }
+      @keyframes woo {
+        0% {background-position: 0 top}
+        50% {background-position: -160px top}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wow rotate">
+      <div class="wow"></div>
+    </div>
+    <div class="boom skew">
+      <div class="boom"></div>
+    </div>
+    <div class="yeah scale">
+      <div class="yeah"></div>
+    </div>
+    <div class="yuhu"></div>
+    <div class="woo"></div>
+  </body>
+</html>
